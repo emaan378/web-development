@@ -1,0 +1,15 @@
+div{
+    height:200px;
+    width: 200px;
+    background-color: pink;
+}
+@media (max-width:500px){
+    div{
+        background-color: aquamarine;
+    }
+}
+@media (min-width:300px) and(max-width:400){
+    div{
+        background-color: chocolate;
+    }
+}

@@ -1,0 +1,31 @@
+#card{
+    background-color: rgb(67, 3, 39);
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    position:relative;
+    height:300px;
+    width:400px;
+    font-size: 40px;
+    text-align: center;
+    top: 20%;
+    color: whitesmoke;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-image: url("../../background-image.png");
+    background-size: cover;
+    padding-top: 30px;
+}
+#new{ 
+    background-color: rgb(210, 137, 187);
+    color: rgb(3, 37, 58);
+    border: 5px  solid rgb(19, 19, 19);
+    border-radius: 10px;
+    position: absolute;
+    top: -25px;
+    left:80px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
