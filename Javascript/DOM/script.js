@@ -113,4 +113,6 @@ let newhead=document.createElement("div")
 newhead.innerText="We are learning DOM"
 newhead.style.fontSize="30px"
 console.log(newhead)
-let head=document
+let newHeading=document.createElement("h1")
+newHeading.innerText=<i>I am new!</i>
+document.querySelector("body").prepend("newHeading");
