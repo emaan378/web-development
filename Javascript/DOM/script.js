@@ -109,10 +109,35 @@
 // p.after(newbtn)
  
 // creating new heading element
-let newhead=document.createElement("div")
-newhead.innerText="We are learning DOM"
-newhead.style.fontSize="30px"
-console.log(newhead)
-let newHeading=document.createElement("h1")
-newHeading.innerText=<i>I am new!</i>
-document.querySelector("body").prepend("newHeading");
+// let newhead=document.createElement("div")
+// newhead.innerText="We are learning DOM"
+// newhead.style.fontSize="30px"
+// console.log(newhead)
+// let newHeading=document.createElement("h1")
+// newHeading.innerHTML="<i>I am new!</i>"
+// document.querySelector("body").prepend(newHeading);
+// let para =document.querySelector("p")
+// para.remove()
+// practice questions
+
+// question 1
+
+// create a new button element .Give it a text click me!background color of red and text color of white
+// let btn=document.createElement("button");
+// btn.innerText="Click me!"
+// btn.style.color="white"
+// btn.style.backgroundColor="red";
+// document.querySelector("body").prepend(btn)
+// question no 2
+
+// creat a <p> tag in html give it a class and some styling 
+// now creat a new class in Css and try to append this class into <p> element
+// did you notice,how you overwrite the class name when you add a new one? slove the problem using a class list
+// let par=document.querySelector("p")
+// par.getAttribute("class") 
+// // par.setAttribute("class","content");
+// // using list method
+// par.classList.add("content")
+// par.classList.remove("content")
+
+

@@ -15,7 +15,7 @@ body{
     border: 2px black solid;
     margin: 5px;
     text-align: center;} */
-    #box{
+    /* #box{
     height: 200px;
     width: 150px;
     border: 1px solid black;
@@ -23,5 +23,13 @@ body{
     color: white;
     border-radius: 2px;
 padding: 20px;
-}
- 
+} */
+ /* practice question no 2
+  */
+  .class{
+    color:aquamarine;
+    background-color: black;
+  }
+  .content{
+    background-color: brown;
+  }
