@@ -21,7 +21,9 @@
 // sum(a,b)
 // }
 // calculator(2,5,sum)
-// Call back hell
+
+
+// Callback hell:Nested Call back stacked below one another forming a pyramid sturcture.
 
 function getData(dataID,getNextData){
     setTimeout(()=>{
@@ -32,7 +34,15 @@ function getData(dataID,getNextData){
     },2000)
 }
 getData(1,()=> {
+    console.log("Getting data 2")
     getData((2),()=>{
-        getData(3);
+        console.log("Getting data 3")
+        getData(3,()=>{
+            console.log("Getting data 4")
+            getData(4);
+        });
     });
-})
+});
+// promises is the solution of the callback Hell
+// Promises
+
