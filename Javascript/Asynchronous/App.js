@@ -47,10 +47,40 @@ function getData(dataID,getNextData){
 // })
 // simpliar way:
 
- getData(1).then((res) =>{
- return getData(2).then(res) 
- })
-   
+//  getData(1).then((res) =>{
+//  return getData(2)}).then((res) =>{
+//     console.log(res)
+//  }).then((res)=>{
+//     console.log(res)
+//  })
+//  Async Await
+// asyn keyword used with function name and always return a promise
+// async  function hello() {
+//     console.log("HEllo")
+// }
+// console.log(hello())
+// // await means to wait .it pause the execution of its surrounding async function until the promise is settled
+// // awati just use inside the async function
+// function api(){
+//     return new Promise ((resolve,reject)=>{
+//         setTimeout(()=>{
+//         console.log("Weather data")
+//         resolve(200)
+//         },2000);
+
+//     });
+// }
+// // async function getweatherData(){
+// //     await api();//first call
+// //     await api()//second call
+// // }
+// // getweatherData()
+// // iife immediately invoked function expression
+// // iffe is a function that is called immediately as soom as it is defined .it has no name and run single time
+//    (async function (){
+//     await api();//first call
+//     await api()//second call
+// })();
 
 
 
